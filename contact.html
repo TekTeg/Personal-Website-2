@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header id="nav-bar">
 
@@ -16,10 +18,37 @@
     <!-- <img src="/Users/tekle/Documents/Coursework/personal-website/logo.png" height="45px" width="150px"> -->
   </header>
   <img id="logo" src="/Users/tekle/Documents/Coursework/personal-website/logo.png" height="45px" width="150px">
- 
-<main>
-HI
-</main>
+
+  <main>
+    <div id="contact-first">
+      <div id="contact-first-text"> CONTACT ME</div>
+    </div>
+    <div id="contact-second">
+      <div id="contact-second-first">
+        <label for="lname">Last Name:&nbsp;</label>
+        <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+        <br><br>
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="First Name">
+        <br><br>
+        <label for="tel" style="padding-right: 20px;">Phone #:</label>
+        <input type="tel" name="tel" id="tel" placeholder="Contact Number" pattern="[0-9] {3} [0-9] {3} [0-9] {4}">
+        <br><br>
+        <label for="email" style="padding-right: 38px;">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Email Address" required>
+        <br><br>
+      
+        <input type="button" name="submit" id="sub" value="Submit" style="margin-left:93px;">
+        <br><br>
+        
+      </div>
+      <div id="contact-second-second">
+        <h5> Leave a Comment</h5>
+        <textarea rows="10" cols="50"></textarea><br><br>
+        <input type="button" name="submit" id="sub" value="Submit" >
+      </div>
+    </div>
+  </main>
 </body>
 <footer>
   <ul id="social-media">
@@ -30,5 +59,6 @@ HI
     <li class="social-media">WhattsApp</li>
     <li class="social-media">Telegram</li>
   </ul>
- </footer>
+</footer>
+
 </html>

@@ -178,7 +178,7 @@ a:hover {
   display: flex;
   justify-content:right;
   background-color: rgba(35, 32, 28, 0.937);
-  color:rgb(203, 219, 219);
+  color:aqua;
   
  
  
@@ -186,11 +186,106 @@ a:hover {
 .social-media{
   margin:10px;
   text-align: center;
-  height: 100px;
-
+  height: 50px;
 
 }
 footer{
   margin:0;
   padding:0;
+}
+#portfolio-body{
+  /* background-image:url("./office.jpeg") */
+  background-image: linear-gradient(lightblue, cornflowerblue)
+}
+#portfolio-sec{
+display: flex;
+justify-content: center;
+}
+#project-one{
+  width:300px;
+  height:auto;
+  background-color: #3a3b3c;
+  /* overflow: scroll; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  letter-spacing: 1.5cap;  
+  
+  font-size: 2.5cap;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px 10px;
+
+}
+#project-one-img{
+  width:300px;
+  height: 1200px;
+  object-fit: none;
+  /* margin-top: -100px; */
+}
+#tech{
+  /* transform: rotate(270deg); */
+  width: 600px;
+ color: #fcfafaf6;
+  background-color: #251016;
+  margin-left:-80px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-weight: 100;
+  z-index: 1;
+  border-radius: 2%;
+  /* border:1px solid grey; */
+}
+#project-two{
+display: flex;
+width: 400px;
+flex-direction: column;
+height: 1200px;
+justify-content: space-between;
+align-content: center;
+margin:0 -30px;
+}
+#project-two-one{
+  width:400px;
+  height:30%;
+  background-color: #391821;
+  border-radius: 5%;
+  box-shadow: 0 10px 50px 10px #cfc7c9;
+}
+#project-two-two{
+  width:400px;
+  height:30%;
+  background-color: #391821;
+  border-radius: 5%;
+  box-shadow: 0 10px 50px 10px #cfc7c9; 
+}
+#project-two-one>h4, #project-two-two>h4, #project-two-three>h4{ letter-spacing: 1cap;
+  padding: 25% 10%; 
+  font-size: 2cap; 
+  color: rgb(179, 179, 179);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#project-two-three{
+  width:400px;
+  height:30%;
+  background-color: #391821;
+  border-radius: 5%;
+  box-shadow: 0 10px 50px 10px #cfc7c9;
+  
+}
+#project-three{
+  width:300px;
+  height:auto;
+  background-color: #3a3b3c;
+  box-shadow: 0 0 10px 10px;
+  z-index: -1;
+}
+#project-three-img{
+  width:300px;
+  height: 1200px;
+  object-fit: none;
+  /* margin-top: -100px; */
+  object-position: 88% 50%;
+  padding-top: 41%;
 }
